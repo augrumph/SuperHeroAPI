@@ -1,0 +1,28 @@
+body {
+  background-color: black;
+}
+.center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 500px;
+  background-color: purple;
+  border-radius: 50px;
+  color: white;
+}
+
+.center h1 {
+  text-align: center;
+  padding: 0 0 20px 0;
+  border-bottom: 2px solid white;
+}
+
+.inputs {
+  position: absolute;
+
+  left: 20%;
+}
+#heroImage {
+  text-align: center;
+}
