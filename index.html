@@ -12,12 +12,13 @@
 
   <div class="center">
     <h1> Pick a Super-Hero</h1>
-    <div class="inputs">
-      <input id='searchInput' type="text" placeholder="Search a Hero">
-      <button id='searchButton'>Search</button>
-      <button id='newHeroButton'>Random Hero</button>
-    </div>
     
+      <div class="input-group">
+        <input placeholder="Hero Name" id="searchInput" required="" type="text" name="text" autocomplete="off" class="input">
+        <i id='searchButton'><img id="imgButton" src="lupa.png" alt=""></i>
+        <button id='newHeroButton'class="button"><img id="imgButton" src="dado.png" class="img-fluid ${3|rounded-top,rounded-right,rounded-bottom,rounded-left,rounded-circle,|}" alt=""></button>
+      </div>
+
     </br>
     <div class="img" id='heroImage'><img src="" alt=""></div>
     <script type="text/javascript" src="index.js"></script>

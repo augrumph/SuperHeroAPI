@@ -31,11 +31,11 @@ const statToEmoji = {
 const showHeroInfo = (character) => {
   const name = `<h2>${character.name}</h2>`;
 
-  const img = `<img src="${character.image.url}" height=200 width=200 border-radius=10px;/>`;
+  const img = `<img src="${character.image.url}" id='hero' height=200 width=200/>`;
 
   const stats = Object.keys(character.powerstats)
     .map((stat) => {
-      return `<p>${statToEmoji[stat]} ${stat.toUpperCase()}: ${
+      return `<p id= "info">${statToEmoji[stat]} ${stat.toUpperCase()}: ${
         character.powerstats[stat]
       }</p>`;
     })
