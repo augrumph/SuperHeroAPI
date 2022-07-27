@@ -58,8 +58,8 @@ button {
   padding: 0.5rem;
 
   border-radius: 50%;
-  background: #e8e8e8;
-  border: 1px solid #e8e8e8;
+  background: none;
+  border: none;
 }
 #imgButton {
   width: 2rem;
@@ -70,4 +70,11 @@ button {
 }
 #imgButton:active {
   transform: translateY(6px);
+}
+
+#info {
+  font-size: 22px;
+}
+#heroName {
+  font-size: 35px;
 }

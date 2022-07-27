@@ -29,9 +29,9 @@ const statToEmoji = {
 };
 
 const showHeroInfo = (character) => {
-  const name = `<h2>${character.name}</h2>`;
+  const name = `<h2 id = 'heroName'>${character.name}</h2>`;
 
-  const img = `<img src="${character.image.url}" id='hero' height=200 width=200/>`;
+  const img = `<img src="${character.image.url}" id='hero' height=300 width=300/>`;
 
   const stats = Object.keys(character.powerstats)
     .map((stat) => {
